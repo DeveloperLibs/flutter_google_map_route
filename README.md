@@ -1,6 +1,6 @@
 # [www.developerlibs.com](https://www.developerlibs.com)
 
-Flutter - Google maps draw route between markers. [Read me here](https://www.developerlibs.com/2018/08/flutter-google-maps-draw-route-between.html)
+Flutter - Google maps draw route between markers. [Read me here](https://www.developerlibs.com/2018/08/flutter-how-can-draw-route-on-google.html)
 
 [YouTube](https://youtu.be/PA09IHkacYM) ,
 [Facebook](https://www.facebook.com/developerlibs), 
