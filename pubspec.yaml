@@ -1,0 +1,23 @@
+name: flutter_google_map_route
+description: A new Flutter application.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  location: ^1.4.1
+  map_view: "^0.0.14"
+  google_maps_webservice: ^0.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+
+  uses-material-design: true
+
+

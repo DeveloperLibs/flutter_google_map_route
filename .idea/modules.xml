@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flutter_google_map_route.iml" filepath="$PROJECT_DIR$/flutter_google_map_route.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_google_map_route_android.iml" filepath="$PROJECT_DIR$/flutter_google_map_route_android.iml" />
+    </modules>
+  </component>
+</project>
