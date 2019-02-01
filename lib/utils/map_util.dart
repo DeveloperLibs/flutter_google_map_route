@@ -23,7 +23,7 @@ class MapUtil implements GpsUtilListener {
     mapView = new MapView();
     gpgUtils = new GpgUtils(this);
     gpgUtils.init();
-    staticMapProvider = new StaticMapProvider("google_api_key");
+    staticMapProvider = new StaticMapProvider("google_map_key");
   }
 
   getDirectionSteps(double destinationLat, double destinationLng) {
@@ -36,7 +36,7 @@ class MapUtil implements GpsUtilListener {
             destinationLat.toString() +
             "," +
             destinationLng.toString() +
-            "&key=google_api_key")
+            "&key=google_map_key")
         .then((dynamic res) {
       List<Steps> rr = res;
       print(res.toString());
