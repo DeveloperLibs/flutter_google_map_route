@@ -9,7 +9,7 @@ class GooglePlaces {
   final homeScaffoldKey = new GlobalKey<ScaffoldState>();
   final searchScaffoldKey = new GlobalKey<ScaffoldState>();
   GoogleMapsPlaces _places =
-      new GoogleMapsPlaces("AIzaSyCyMTdg3zrs6lKPhz9hE3XDmkJQ1m6QpYc");
+      new GoogleMapsPlaces("google_map_key");
   Location location;
   GooglePlacesListener _mapScreenState;
 
@@ -19,7 +19,7 @@ class GooglePlaces {
     Prediction p = await showGooglePlacesAutocomplete(
       context: context,
       location: location,
-      apiKey: "AIzaSyCyMTdg3zrs6lKPhz9hE3XDmkJQ1m6QpYc",
+      apiKey: "google_map_key",
       onError: (res) {
         homeScaffoldKey.currentState
             .showSnackBar(new SnackBar(content: new Text(res.errorMessage)));
